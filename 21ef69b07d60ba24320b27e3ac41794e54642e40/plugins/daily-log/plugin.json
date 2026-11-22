@@ -1,0 +1,26 @@
+{
+  "id": "daily-log",
+  "version": "1.0.0",
+  "api": 2,
+  "layer": "light",
+  "name": {
+    "en": "Daily log", "zh-CN": "每日记录", "zh-TW": "每日記錄", "ja": "毎日の記録", "ko": "하루 기록", "de": "Tagesprotokoll",
+    "fr": "Journal du jour", "es": "Registro diario", "pt-BR": "Registro diário", "ru": "Дневник", "it": "Diario giornaliero"
+  },
+  "description": {
+    "en": "Write a line, press Ctrl+Enter: it goes into today's Markdown file in a folder you pick, with the time.",
+    "zh-CN": "写一句话，按 Ctrl+Enter，它就带着时间记进你选的文件夹里当天的 Markdown 文件。",
+    "zh-TW": "寫一句話，按 Ctrl+Enter，它就帶著時間記進你選的資料夾裡當天的 Markdown 檔案。",
+    "ja": "一行書いて Ctrl+Enter を押すと、時刻と一緒に、選んだフォルダーにある今日の Markdown ファイルに記録されます。",
+    "ko": "한 줄을 쓰고 Ctrl+Enter를 누르면 시간과 함께, 고른 폴더에 있는 오늘의 Markdown 파일에 기록됩니다.",
+    "de": "Eine Zeile schreiben, Strg+Eingabe drücken: Sie kommt mit der Uhrzeit in die heutige Markdown-Datei in einem Ordner Ihrer Wahl.",
+    "fr": "Écrivez une ligne et appuyez sur Ctrl+Entrée : elle va, avec l'heure, dans le fichier Markdown du jour d'un dossier que vous choisissez.",
+    "es": "Escribe una línea y pulsa Ctrl+Intro: va, con la hora, al archivo Markdown de hoy en una carpeta que eliges.",
+    "pt-BR": "Escreva uma linha e pressione Ctrl+Enter: ela vai, com a hora, para o arquivo Markdown de hoje numa pasta que você escolhe.",
+    "ru": "Напишите строку и нажмите Ctrl+Enter: она попадёт вместе со временем в сегодняшний файл Markdown в выбранной папке.",
+    "it": "Scrivi una riga e premi Ctrl+Invio: finisce, con l'ora, nel file Markdown di oggi in una cartella che scegli."
+  },
+  "author": "DayuanJiang",
+  "minPecoFence": "0.5.0",
+  "permissions": { "folders": "readwrite" }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "weather",
+  "version": "1.0.0",
+  "api": 1,
+  "layer": "light",
+  "name": {
+    "en": "Weather", "zh-CN": "天气", "zh-TW": "天氣", "ja": "天気", "ko": "날씨", "de": "Wetter",
+    "fr": "Météo", "es": "El tiempo", "pt-BR": "Previsão do tempo", "ru": "Погода", "it": "Meteo"
+  },
+  "description": {
+    "en": "The weather now, today and tomorrow, from wttr.in. Updates every 30 minutes.",
+    "zh-CN": "现在、今天和明天的天气，数据来自 wttr.in，每 30 分钟更新一次。",
+    "zh-TW": "現在、今天和明天的天氣，資料來自 wttr.in，每 30 分鐘更新一次。",
+    "ja": "今の天気と今日・明日の予報を wttr.in から取得し、30 分ごとに更新します。",
+    "ko": "wttr.in에서 가져온 지금 날씨와 오늘, 내일 예보입니다. 30분마다 업데이트합니다.",
+    "de": "Das Wetter jetzt, heute und morgen von wttr.in, alle 30 Minuten neu.",
+    "fr": "La météo actuelle, d'aujourd'hui et de demain, depuis wttr.in, mise à jour toutes les 30 minutes.",
+    "es": "El tiempo de ahora, de hoy y de mañana, de wttr.in, actualizado cada 30 minutos.",
+    "pt-BR": "O tempo agora, hoje e amanhã, do wttr.in, atualizado a cada 30 minutos.",
+    "ru": "Погода сейчас, сегодня и завтра с wttr.in, обновляется каждые 30 минут.",
+    "it": "Il meteo di adesso, di oggi e di domani da wttr.in, aggiornato ogni 30 minuti."
+  },
+  "author": "DayuanJiang",
+  "minPecoFence": "0.5.0",
+  "permissions": {
+    "network": ["wttr.in"]
+  },
+  "settings": [
+    {
+      "key": "city",
+      "type": "text",
+      "label": {
+        "en": "City (empty: where your network is)", "zh-CN": "城市（空着时按网络位置）",
+        "zh-TW": "城市（空著時按網路位置）", "ja": "都市（空欄のときはネットワークの場所）",
+        "ko": "도시(비워 두면 네트워크 위치)", "de": "Stadt (leer: nach Ihrem Netzwerk)",
+        "fr": "Ville (vide : selon votre réseau)", "es": "Ciudad (vacía: según su red)",
+        "pt-BR": "Cidade (vazia: pela sua rede)", "ru": "Город (пусто: по вашей сети)",
+        "it": "Città (vuota: in base alla rete)"
+      },
+      "default": ""
+    }
+  ]
+}

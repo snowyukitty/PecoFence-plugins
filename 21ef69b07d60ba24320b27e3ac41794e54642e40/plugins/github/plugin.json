@@ -1,0 +1,44 @@
+{
+  "id": "github",
+  "version": "1.0.0",
+  "api": 1,
+  "layer": "light",
+  "name": {
+    "en": "GitHub activity", "zh-CN": "GitHub 仓库动态", "zh-TW": "GitHub 存放庫動態",
+    "ja": "GitHub の動き", "ko": "GitHub 저장소 소식", "de": "GitHub-Aktivität", "fr": "Activité GitHub",
+    "es": "Actividad de GitHub", "pt-BR": "Atividade do GitHub", "ru": "Активность на GitHub",
+    "it": "Attività su GitHub"
+  },
+  "description": {
+    "en": "The newest open issues and pull requests of a GitHub repository. A click opens one in the browser.",
+    "zh-CN": "一个 GitHub 仓库最新的 issue 和 PR，点一行在浏览器里打开。",
+    "zh-TW": "一個 GitHub 存放庫最新的 issue 和 PR，點一列在瀏覽器裡開啟。",
+    "ja": "GitHub リポジトリの新しい Issue とプル リクエスト。クリックするとブラウザーで開きます。",
+    "ko": "GitHub 저장소의 최신 이슈와 풀 리퀘스트입니다. 클릭하면 브라우저에서 엽니다.",
+    "de": "Die neuesten offenen Issues und Pull Requests eines GitHub-Repositorys. Ein Klick öffnet sie im Browser.",
+    "fr": "Les dernières issues et pull requests ouvertes d'un dépôt GitHub. Un clic les ouvre dans le navigateur.",
+    "es": "Las issues y pull requests abiertas más recientes de un repositorio de GitHub. Un clic las abre en el navegador.",
+    "pt-BR": "As issues e pull requests abertas mais recentes de um repositório do GitHub. Um clique abre no navegador.",
+    "ru": "Новые открытые задачи и пул-реквесты репозитория GitHub. Щелчок открывает их в браузере.",
+    "it": "Le issue e le pull request aperte più recenti di un repository GitHub. Un clic le apre nel browser."
+  },
+  "author": "DayuanJiang",
+  "minPecoFence": "0.5.0",
+  "permissions": {
+    "network": ["api.github.com"],
+    "links": ["github.com"]
+  },
+  "settings": [
+    {
+      "key": "repo",
+      "type": "text",
+      "label": {
+        "en": "Repository (owner/name)", "zh-CN": "仓库（owner/name）", "zh-TW": "存放庫（owner/name）",
+        "ja": "リポジトリ（owner/name）", "ko": "저장소(owner/name)", "de": "Repository (owner/name)",
+        "fr": "Dépôt (owner/name)", "es": "Repositorio (owner/name)", "pt-BR": "Repositório (owner/name)",
+        "ru": "Репозиторий (owner/name)", "it": "Repository (owner/name)"
+      },
+      "default": "DayuanJiang/PecoFence"
+    }
+  ]
+}

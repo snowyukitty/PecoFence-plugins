@@ -1,0 +1,29 @@
+{
+  "id": "pc-status",
+  "version": "1.0.0",
+  "api": 1,
+  "layer": "light",
+  "name": {
+    "en": "PC status", "zh-CN": "电脑状态", "zh-TW": "電腦狀態", "ja": "PC の状態", "ko": "PC 상태",
+    "de": "PC-Status", "fr": "État du PC", "es": "Estado del PC", "pt-BR": "Status do PC",
+    "ru": "Состояние ПК", "it": "Stato del PC"
+  },
+  "description": {
+    "en": "CPU and memory load, the free space of each drive, and the IP address (a click copies it). Opens Task Manager.",
+    "zh-CN": "CPU 和内存的占用、每个磁盘的剩余空间、本机 IP（点一下复制），还能打开任务管理器。",
+    "zh-TW": "CPU 和記憶體的使用率、每個磁碟的剩餘空間、本機 IP（點一下複製），還能開啟工作管理員。",
+    "ja": "CPU とメモリの使用率、各ドライブの空き容量、IP アドレス（クリックでコピー）。タスク マネージャーも開けます。",
+    "ko": "CPU와 메모리 사용률, 드라이브별 여유 공간, IP 주소(클릭하면 복사)를 보여 주고 작업 관리자를 열 수 있습니다.",
+    "de": "CPU- und Speicherlast, der freie Platz jedes Laufwerks und die IP-Adresse (ein Klick kopiert sie). Öffnet den Task-Manager.",
+    "fr": "La charge du processeur et de la mémoire, l'espace libre de chaque disque et l'adresse IP (un clic la copie). Ouvre le Gestionnaire des tâches.",
+    "es": "La carga de la CPU y la memoria, el espacio libre de cada unidad y la dirección IP (un clic la copia). Abre el Administrador de tareas.",
+    "pt-BR": "O uso da CPU e da memória, o espaço livre de cada unidade e o endereço IP (um clique copia). Abre o Gerenciador de Tarefas.",
+    "ru": "Загрузка ЦП и памяти, свободное место на каждом диске и IP-адрес (щелчок копирует его). Открывает диспетчер задач.",
+    "it": "Il carico di CPU e memoria, lo spazio libero di ogni unità e l'indirizzo IP (un clic lo copia). Apre Gestione attività."
+  },
+  "author": "DayuanJiang",
+  "minPecoFence": "0.5.0",
+  "permissions": {
+    "clipboard": "write"
+  }
+}

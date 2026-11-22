@@ -1,0 +1,37 @@
+{
+  "id": "launcher",
+  "version": "1.0.0",
+  "api": 2,
+  "layer": "light",
+  "name": {
+    "en": "Launcher", "zh-CN": "启动器", "zh-TW": "啟動器", "ja": "ランチャー", "ko": "런처", "de": "Starter",
+    "fr": "Lanceur", "es": "Lanzador", "pt-BR": "Iniciador", "ru": "Панель запуска", "it": "Avvio rapido"
+  },
+  "description": {
+    "en": "Put the programs, files and folders you use often into it; one click opens them.",
+    "zh-CN": "把常用的程序、文件和文件夹放进来，点一下就能打开。",
+    "zh-TW": "把常用的程式、檔案和資料夾放進來，按一下就能開啟。",
+    "ja": "よく使うプログラム、ファイル、フォルダーを入れておくと、クリック一つで開けます。",
+    "ko": "자주 쓰는 프로그램, 파일, 폴더를 넣어 두면 한 번 클릭으로 열 수 있습니다.",
+    "de": "Legen Sie oft genutzte Programme, Dateien und Ordner hinein; ein Klick öffnet sie.",
+    "fr": "Placez-y les programmes, fichiers et dossiers que vous utilisez souvent ; un clic les ouvre.",
+    "es": "Pon aquí los programas, archivos y carpetas que usas a menudo; un clic los abre.",
+    "pt-BR": "Coloque aqui os programas, arquivos e pastas que você usa com frequência; um clique os abre.",
+    "ru": "Положите сюда программы, файлы и папки, которыми часто пользуетесь; они открываются одним щелчком.",
+    "it": "Mettici i programmi, i file e le cartelle che usi spesso; un clic li apre."
+  },
+  "author": "DayuanJiang",
+  "minPecoFence": "0.5.0",
+  "permissions": {
+    "launch": true,
+    "drop": ["files"],
+    "commands": [{
+      "id": "show",
+      "title": {
+        "en": "Show the launcher", "zh-CN": "显示启动器", "zh-TW": "顯示啟動器", "ja": "ランチャーを表示", "ko": "런처 표시",
+        "de": "Starter anzeigen", "fr": "Afficher le lanceur", "es": "Mostrar el lanzador", "pt-BR": "Mostrar o iniciador",
+        "ru": "Показать панель запуска", "it": "Mostra l'avvio rapido"
+      }
+    }]
+  }
+}

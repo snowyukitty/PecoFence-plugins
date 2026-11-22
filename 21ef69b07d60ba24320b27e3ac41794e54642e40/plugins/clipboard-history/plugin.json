@@ -1,0 +1,31 @@
+{
+  "id": "clipboard-history",
+  "version": "1.0.0",
+  "api": 1,
+  "layer": "light",
+  "name": {
+    "en": "Clipboard history", "zh-CN": "剪贴板历史", "zh-TW": "剪貼簿歷程記錄", "ja": "クリップボードの履歴",
+    "ko": "클립보드 기록", "de": "Zwischenablage-Verlauf", "fr": "Historique du presse-papiers",
+    "es": "Historial del portapapeles", "pt-BR": "Histórico da área de transferência",
+    "ru": "Журнал буфера обмена", "it": "Cronologia degli appunti"
+  },
+  "description": {
+    "en": "What you copy (texts, files and pictures), newest first. Click to copy again, pin what you want to keep, blur it all while you stream.",
+    "zh-CN": "复制过的文字、文件和图片，最新的在上面。点一下再次复制，固定想留下的，直播时可以全部模糊。",
+    "zh-TW": "複製過的文字、檔案和圖片，最新的在上面。點一下再次複製，固定想留下的，直播時可以全部模糊。",
+    "ja": "コピーした文字、ファイル、画像を新しい順に表示します。クリックで再コピー、残したいものはピン留め、配信中はすべてぼかせます。",
+    "ko": "복사한 텍스트, 파일, 이미지를 최신순으로 보여 줍니다. 클릭하면 다시 복사하고, 남길 것은 고정하고, 방송 중에는 모두 흐리게 할 수 있습니다.",
+    "de": "Was Sie kopieren (Texte, Dateien, Bilder), das Neueste oben. Klicken kopiert erneut, Anheften behält es, beim Streamen alles unscharf.",
+    "fr": "Ce que vous copiez (textes, fichiers, images), le plus récent en haut. Un clic recopie, épinglez ce qui doit rester, floutez tout pendant un direct.",
+    "es": "Lo que copia (textos, archivos e imágenes), lo más reciente arriba. Un clic lo copia de nuevo, ancle lo que quiera guardar, desenfoque todo al emitir.",
+    "pt-BR": "O que você copia (textos, arquivos e imagens), o mais recente em cima. Um clique copia de novo, fixe o que quiser guardar, desfoque tudo ao transmitir.",
+    "ru": "Всё, что вы копируете (текст, файлы, изображения), новое сверху. Щелчок копирует снова, закрепите нужное, размойте всё во время трансляции.",
+    "it": "Ciò che copi (testi, file e immagini), il più recente in alto. Un clic lo ricopia, fissa ciò che vuoi tenere, sfoca tutto durante una diretta."
+  },
+  "author": "DayuanJiang",
+  "minPecoFence": "0.5.0",
+  "permissions": {
+    "clipboard": "readwrite",
+    "background": true
+  }
+}

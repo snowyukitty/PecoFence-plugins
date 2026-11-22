@@ -1,0 +1,39 @@
+{
+  "id": "todo",
+  "version": "1.0.0",
+  "api": 1,
+  "layer": "light",
+  "name": {
+    "en": "To-do", "zh-CN": "待办", "zh-TW": "待辦", "ja": "やること", "ko": "할 일", "de": "Aufgaben",
+    "fr": "À faire", "es": "Tareas", "pt-BR": "Tarefas", "ru": "Дела", "it": "Cose da fare"
+  },
+  "description": {
+    "en": "A to-do list in a fence: type a task, tick it when it is done. Nothing leaves this computer.",
+    "zh-CN": "栅栏里的待办清单：输入一件事，做完打勾。内容只存在这台电脑上。",
+    "zh-TW": "柵欄裡的待辦清單：輸入一件事，做完打勾。內容只存在這台電腦上。",
+    "ja": "フェンスの中のやることリストです。やることを入力し、終わったらチェックします。内容はこのパソコンにだけ保存されます。",
+    "ko": "펜스 안의 할 일 목록입니다. 할 일을 입력하고 끝나면 체크하세요. 내용은 이 컴퓨터에만 저장됩니다.",
+    "de": "Eine Aufgabenliste im Bereich: Aufgabe eintippen, erledigt abhaken. Nichts verlässt diesen Computer.",
+    "fr": "Une liste de tâches dans le groupe : tapez une tâche, cochez-la une fois faite. Rien ne quitte cet ordinateur.",
+    "es": "Una lista de tareas en el grupo: escribe una tarea y márcala cuando esté hecha. Nada sale de este equipo.",
+    "pt-BR": "Uma lista de tarefas no grupo: digite uma tarefa e marque quando terminar. Nada sai deste computador.",
+    "ru": "Список дел в области: впишите дело и отметьте, когда оно сделано. Ничего не покидает этот компьютер.",
+    "it": "Un elenco di cose da fare nel riquadro: scrivi un'attività e spuntala quando è fatta. Niente lascia questo computer."
+  },
+  "author": "DayuanJiang",
+  "minPecoFence": "0.5.0",
+  "permissions": {},
+  "settings": [
+    {
+      "key": "hideDone",
+      "type": "switch",
+      "label": {
+        "en": "Hide tasks that are done", "zh-CN": "隐藏已完成的事项", "zh-TW": "隱藏已完成的事項",
+        "ja": "終わったことを隠す", "ko": "끝난 일 숨기기", "de": "Erledigte Aufgaben ausblenden",
+        "fr": "Masquer les tâches faites", "es": "Ocultar las tareas hechas", "pt-BR": "Ocultar as tarefas concluídas",
+        "ru": "Скрывать сделанные дела", "it": "Nascondi le attività fatte"
+      },
+      "default": false
+    }
+  ]
+}

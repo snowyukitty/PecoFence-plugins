@@ -1,0 +1,89 @@
+{
+  "id": "emoji-picker",
+  "version": "1.0.0",
+  "api": 1,
+  "layer": "web",
+  "name": {
+    "en": "Emoji Picker", "zh-CN": "表情符号选择器", "zh-TW": "表情符號選擇器", "ja": "絵文字ピッカー",
+    "ko": "이모지 선택기", "de": "Emoji-Auswahl", "fr": "Sélecteur d'émojis", "es": "Selector de emojis",
+    "pt-BR": "Seletor de emojis", "ru": "Выбор эмодзи", "it": "Selettore di emoji"
+  },
+  "description": {
+    "en": "Every emoji your Windows draws, with search, categories, recent and favorites. Click one to copy it.",
+    "zh-CN": "Windows 能显示的全部表情符号，可搜索、分类，并有最近使用和收藏。点一下即可复制。",
+    "zh-TW": "Windows 能顯示的全部表情符號，可搜尋、分類，並有最近使用和我的最愛。點一下即可複製。",
+    "ja": "Windows が表示できるすべての絵文字を、検索・カテゴリ・最近使った絵文字・お気に入り付きで表示します。クリックでコピーします。",
+    "ko": "Windows가 표시하는 모든 이모지를 검색, 카테고리, 최근 사용, 즐겨찾기와 함께 보여 줍니다. 누르면 복사됩니다.",
+    "de": "Alle Emojis, die dein Windows darstellt, mit Suche, Kategorien, Zuletzt und Favoriten. Ein Klick kopiert.",
+    "fr": "Tous les émojis dessinés par votre Windows, avec recherche, catégories, récents et favoris. Un clic les copie.",
+    "es": "Todos los emojis que dibuja tu Windows, con búsqueda, categorías, recientes y favoritos. Un clic los copia.",
+    "pt-BR": "Todos os emojis que o seu Windows desenha, com busca, categorias, recentes e favoritos. Um clique copia.",
+    "ru": "Все эмодзи, которые рисует ваш Windows: поиск, категории, недавние и избранное. Нажатие копирует эмодзи.",
+    "it": "Tutti gli emoji che il tuo Windows disegna, con ricerca, categorie, recenti e preferiti. Un clic li copia."
+  },
+  "author": "xan2622",
+  "minPecoFence": "0.5.0",
+  "permissions": {
+    "network": ["cdn.jsdelivr.net"],
+    "clipboard": "write"
+  },
+  "settings": [
+    {
+      "key": "tone",
+      "type": "choice",
+      "label": {
+        "en": "Skin tone", "zh-CN": "肤色", "zh-TW": "膚色", "ja": "肌の色", "ko": "피부색",
+        "de": "Hautfarbe", "fr": "Teinte de peau", "es": "Tono de piel", "pt-BR": "Tom de pele",
+        "ru": "Цвет кожи", "it": "Tono della pelle"
+      },
+      "options": [
+        {
+          "value": "0",
+          "label": {
+            "en": "Default", "zh-CN": "默认", "zh-TW": "預設", "ja": "標準", "ko": "기본",
+            "de": "Standard", "fr": "Par défaut", "es": "Predeterminado", "pt-BR": "Padrão",
+            "ru": "По умолчанию", "it": "Predefinito"
+          }
+        },
+        {
+          "value": "1",
+          "label": {
+            "en": "Light", "zh-CN": "浅色", "zh-TW": "淺色", "ja": "明るい", "ko": "밝은 색",
+            "de": "Hell", "fr": "Clair", "es": "Claro", "pt-BR": "Claro", "ru": "Светлый", "it": "Chiaro"
+          }
+        },
+        {
+          "value": "2",
+          "label": {
+            "en": "Medium-light", "zh-CN": "中浅色", "zh-TW": "中淺色", "ja": "やや明るい", "ko": "약간 밝은 색",
+            "de": "Mittelhell", "fr": "Moyennement clair", "es": "Medio claro", "pt-BR": "Médio claro",
+            "ru": "Умеренно светлый", "it": "Medio chiaro"
+          }
+        },
+        {
+          "value": "3",
+          "label": {
+            "en": "Medium", "zh-CN": "中等", "zh-TW": "中等", "ja": "中間", "ko": "중간",
+            "de": "Mittel", "fr": "Moyen", "es": "Medio", "pt-BR": "Médio", "ru": "Средний", "it": "Medio"
+          }
+        },
+        {
+          "value": "4",
+          "label": {
+            "en": "Medium-dark", "zh-CN": "中深色", "zh-TW": "中深色", "ja": "やや濃い", "ko": "약간 어두운 색",
+            "de": "Mitteldunkel", "fr": "Moyennement foncé", "es": "Medio oscuro", "pt-BR": "Médio escuro",
+            "ru": "Умеренно тёмный", "it": "Medio scuro"
+          }
+        },
+        {
+          "value": "5",
+          "label": {
+            "en": "Dark", "zh-CN": "深色", "zh-TW": "深色", "ja": "濃い", "ko": "어두운 색",
+            "de": "Dunkel", "fr": "Foncé", "es": "Oscuro", "pt-BR": "Escuro", "ru": "Тёмный", "it": "Scuro"
+          }
+        }
+      ],
+      "default": "0"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "id": "translator",
+  "version": "1.0.0",
+  "api": 2,
+  "layer": "light",
+  "name": {
+    "en": "Translator",
+    "zh-CN": "翻译",
+    "zh-TW": "翻譯",
+    "ja": "翻訳",
+    "ko": "번역기",
+    "de": "Übersetzer",
+    "fr": "Traducteur",
+    "es": "Traductor",
+    "pt-BR": "Tradutor",
+    "ru": "Переводчик",
+    "it": "Traduttore"
+  },
+  "description": {
+    "en": "Translate text between languages. Works with no sign-up (MyMemory) and moves on to DeepL, Microsoft, Google or Gemini when you add their free keys; shows the quota left.",
+    "zh-CN": "在多种语言之间翻译文字。无需注册即可使用（MyMemory），添加免费密钥后可使用 DeepL、微软、谷歌或 Gemini，并显示剩余额度。",
+    "zh-TW": "在多種語言之間翻譯文字。無需註冊即可使用（MyMemory），加入免費金鑰後可使用 DeepL、微軟、Google 或 Gemini，並顯示剩餘額度。",
+    "ja": "言語間でテキストを翻訳します。登録なしで使え（MyMemory）、無料キーを追加すると DeepL、Microsoft、Google、Gemini も使えます。残りの無料枠も表示します。",
+    "ko": "언어 사이에서 텍스트를 번역합니다. 가입 없이 사용할 수 있고(MyMemory), 무료 키를 추가하면 DeepL, Microsoft, Google, Gemini도 쓸 수 있으며 남은 할당량을 보여 줍니다.",
+    "de": "Übersetzt Text zwischen Sprachen. Funktioniert ohne Anmeldung (MyMemory) und nutzt DeepL, Microsoft, Google oder Gemini, wenn Sie deren kostenlose Schlüssel eintragen; zeigt das verbleibende Kontingent.",
+    "fr": "Traduit du texte entre langues. Fonctionne sans inscription (MyMemory), puis passe à DeepL, Microsoft, Google ou Gemini si vous ajoutez leurs clés gratuites ; affiche le quota restant.",
+    "es": "Traduce texto entre idiomas. Funciona sin registro (MyMemory) y pasa a DeepL, Microsoft, Google o Gemini si añades sus claves gratuitas; muestra la cuota restante.",
+    "pt-BR": "Traduz texto entre idiomas. Funciona sem cadastro (MyMemory) e passa para DeepL, Microsoft, Google ou Gemini se você adicionar as chaves gratuitas; mostra a cota restante.",
+    "ru": "Переводит текст между языками. Работает без регистрации (MyMemory) и переходит на DeepL, Microsoft, Google или Gemini, если добавить их бесплатные ключи; показывает остаток квоты.",
+    "it": "Traduce testo tra lingue. Funziona senza registrazione (MyMemory) e passa a DeepL, Microsoft, Google o Gemini se aggiungi le loro chiavi gratuite; mostra la quota rimasta."
+  },
+  "author": "xan2622",
+  "minPecoFence": "0.5.0",
+  "permissions": {
+    "network": [
+      "api.mymemory.translated.net",
+      "api-free.deepl.com",
+      "api.deepl.com",
+      "api.cognitive.microsofttranslator.com",
+      "translation.googleapis.com",
+      "generativelanguage.googleapis.com"
+    ],
+    "links": [
+      "www.deepl.com",
+      "azure.microsoft.com",
+      "aistudio.google.com",
+      "cloud.google.com"
+    ],
+    "clipboard": "write"
+  },
+  "settings": [
+    {
+      "key": "deeplKey",
+      "type": "secret",
+      "label": {
+        "en": "DeepL API key (free: 500,000 characters a month)",
+        "fr": "Clé d'API DeepL (gratuit : 500 000 caractères/mois)",
+        "de": "DeepL-API-Schlüssel (gratis: 500.000 Zeichen/Monat)",
+        "es": "Clave de API de DeepL (gratis: 500 000 car./mes)"
+      }
+    },
+    {
+      "key": "azureKey",
+      "type": "secret",
+      "label": {
+        "en": "Microsoft Translator key (free F0: 2M characters a month)",
+        "fr": "Clé Microsoft Translator (F0 gratuit : 2 M car./mois)",
+        "de": "Microsoft-Translator-Schlüssel (F0 gratis: 2 Mio./Monat)",
+        "es": "Clave de Microsoft Translator (F0 gratis: 2 M car./mes)"
+      }
+    },
+    {
+      "key": "azureRegion",
+      "type": "text",
+      "default": "",
+      "label": {
+        "en": "Microsoft Translator region (empty: global resource)",
+        "fr": "Région Microsoft Translator (vide : globale)",
+        "de": "Microsoft-Translator-Region (leer: global)",
+        "es": "Región de Microsoft Translator (vacío: global)"
+      }
+    },
+    {
+      "key": "googleKey",
+      "type": "secret",
+      "label": {
+        "en": "Google Cloud Translation key (500,000 free chars a month)",
+        "fr": "Clé Google Cloud Translation (500 000 car. gratuits/mois)",
+        "de": "Google-Cloud-Translation-Schlüssel (500.000 gratis/Monat)",
+        "es": "Clave de Google Cloud Translation (500 000 gratis/mes)"
+      }
+    },
+    {
+      "key": "geminiKey",
+      "type": "secret",
+      "label": {
+        "en": "Gemini API key from Google AI Studio (free tier)",
+        "fr": "Clé d'API Gemini de Google AI Studio (gratuite)",
+        "de": "Gemini-API-Schlüssel (Google AI Studio, gratis)",
+        "es": "Clave de API de Gemini de Google AI Studio (gratis)"
+      }
+    },
+    {
+      "key": "geminiModel",
+      "type": "text",
+      "default": "gemini-flash-latest",
+      "label": {
+        "en": "Gemini model",
+        "fr": "Modèle Gemini",
+        "de": "Gemini-Modell",
+        "es": "Modelo de Gemini"
+      }
+    },
+    {
+      "key": "mymemoryEmail",
+      "type": "text",
+      "default": "",
+      "label": {
+        "en": "Optional MyMemory e-mail (free limit 50,000 a day)",
+        "fr": "E-mail facultatif MyMemory (limite gratuite 50 000/jour)",
+        "de": "Optionale MyMemory-E-Mail (Gratis-Limit 50.000/Tag)",
+        "es": "Correo opcional de MyMemory (límite gratuito 50 000/día)"
+      }
+    }
+  ]
+}

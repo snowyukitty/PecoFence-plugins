@@ -1,0 +1,73 @@
+{
+  "id": "countdown",
+  "version": "2.0.1",
+  "api": 1,
+  "layer": "light",
+  "name": {
+    "en": "Countdown",
+    "zh-CN": "倒数日",
+    "zh-TW": "倒數日",
+    "ja": "カウントダウン",
+    "ko": "카운트다운",
+    "de": "Countdown",
+    "fr": "Compte à rebours",
+    "es": "Cuenta atrás",
+    "pt-BR": "Contagem regressiva",
+    "ru": "Обратный отсчёт",
+    "it": "Conto alla rovescia"
+  },
+  "description": {
+    "en": "Days left until the dates you choose, nearest first.",
+    "zh-CN": "离你选的日子还有几天，最近的在最上面。",
+    "zh-TW": "離你選的日子還有幾天，最近的在最上面。",
+    "ja": "選んだ日まであと何日か、近い順に表示します。",
+    "ko": "고른 날까지 며칠 남았는지 가까운 순서로 보여 줍니다.",
+    "de": "Wie viele Tage es noch bis zu den gewählten Daten sind, das nächste zuerst.",
+    "fr": "Les jours qui restent avant les dates choisies, la plus proche en premier.",
+    "es": "Los días que faltan para las fechas que elija, la más cercana primero.",
+    "pt-BR": "Os dias que faltam para as datas que você escolher, a mais próxima primeiro.",
+    "ru": "Сколько дней осталось до выбранных дат, ближайшая сверху.",
+    "it": "I giorni che mancano alle date scelte, la più vicina per prima."
+  },
+  "author": "DayuanJiang",
+  "minPecoFence": "0.5.0",
+  "permissions": {},
+  "settings": [
+    {
+      "key": "dates",
+      "type": "text",
+      "label": {
+        "en": "Dates (2026-12-25 Christmas; 01-01 New Year)",
+        "zh-CN": "日期（2026-12-25 圣诞节；01-01 元旦）",
+        "zh-TW": "日期（2026-12-25 聖誕節；01-01 元旦）",
+        "ja": "日付（2026-12-25 クリスマス；01-01 元日）",
+        "ko": "날짜 (2026-12-25 크리스마스; 01-01 새해)",
+        "de": "Daten (2026-12-25 Weihnachten; 01-01 Neujahr)",
+        "fr": "Dates (2026-12-25 Noël; 01-01 Nouvel An)",
+        "es": "Fechas (2026-12-25 Navidad; 01-01 Año Nuevo)",
+        "pt-BR": "Datas (2026-12-25 Natal; 01-01 Ano-Novo)",
+        "ru": "Даты (2026-12-25 Рождество; 01-01 Новый год)",
+        "it": "Date (2026-12-25 Natale; 01-01 Capodanno)"
+      },
+      "default": "12-25 Christmas; 01-01 New Year"
+    },
+    {
+      "key": "past",
+      "type": "switch",
+      "label": {
+        "en": "Show dates that have passed",
+        "zh-CN": "显示已经过去的日子",
+        "zh-TW": "顯示已經過去的日子",
+        "ja": "過ぎた日も表示",
+        "ko": "지난 날짜도 표시",
+        "de": "Vergangene Daten anzeigen",
+        "fr": "Afficher les dates passées",
+        "es": "Mostrar las fechas pasadas",
+        "pt-BR": "Mostrar as datas que já passaram",
+        "ru": "Показывать прошедшие даты",
+        "it": "Mostra le date passate"
+      },
+      "default": true
+    }
+  ]
+}
